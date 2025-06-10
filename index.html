@@ -3,109 +3,185 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Neczux Global Group - Technology Solutions & Business Consultancy</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Lato:wght@700;900&display=swap" rel="stylesheet">
+    <title>Neczux Global Group</title>
     <link rel="stylesheet" href="static/css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Lato:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Sticky Header with Mega Menu -->
     <header class="sticky-header">
         <div class="container">
             <div class="logo">
                 <img src="ngg/NGG nB1.png" alt="Neczux Global Group Logo">
             </div>
             <nav>
-                <ul class="main-nav">
+                <ul>
                     <li><a href="neczux-updated-homepage.html">Home</a></li>
-                    <li class="mega-menu-item">
-                        <a href="#industries">Industries <i class="fas fa-chevron-down"></i></a>
-                        <div class="mega-menu">
-                            <div class="mega-menu-column">
-                                <h4>Technology</h4>
-                                <ul>
-                                    <li><a href="#ai-ml">AI & Machine Learning</a></li>
-                                    <li><a href="#cloud">Cloud Solutions</a></li>
-                                    <li><a href="#cybersecurity">Cybersecurity</a></li>
-                                </ul>
-                            </div>
-                            <div class="mega-menu-column">
-                                <h4>Education</h4>
-                                <ul>
-                                    <li><a href="#edtech">EdTech Solutions</a></li>
-                                    <li><a href="#training">Professional Training</a></li>
-                                </ul>
-                            </div>
-                            <div class="mega-menu-column">
-                                <h4>Startups</h4>
-                                <ul>
-                                    <li><a href="#incubation">Incubation Programs</a></li>
-                                    <li><a href="#funding">Funding Assistance</a></li>
-                                </ul>
-                            </div>
-                        </div>
+                    <li>
+                        <a href="#industries">Industries</a>
+                        <ul class="dropdown">
+                            <li><a href="#tech">Technology</a></li>
+                            <li><a href="#education">Education</a></li>
+                            <li><a href="#startups">Startups</a></li>
+                        </ul>
                     </li>
-                    <!-- Similar mega menu structure for Services and About -->
+                    <li>
+                        <a href="#services">Services</a>
+                        <ul class="dropdown">
+                            <li><a href="tech-solutions.html">Technology Solutions</a></li>
+                            <li><a href="business-consultancy.html">Business Consultancy</a></li>
+                            <li><a href="tutorial-services.html">Tutorial Services</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                        <ul class="dropdown">
+                            <li><a href="#company-info">Company Information</a></li>
+                            <li><a href="#leadership">Leadership Team</a></li>
+                            <li><a href="#events">Events</a></li>
+                            <li><a href="#news">News</a></li>
+                            <li><a href="#careers">Careers</a></li>
+                            <li><a href="#contact">Contact Us</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#resources">Resources</a>
+                        <ul class="dropdown">
+                            <li><a href="#insights">Insights</a></li>
+                            <li><a href="#success-stories">Success Stories</a></li>
+                            <li><a href="#key-stories">Key Stories</a></li>
+                        </ul>
+                    </li>
                     <li><a href="#contact" class="cta-button">Contact Us</a></li>
                 </ul>
-                <div class="mobile-menu-toggle">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
             </nav>
         </div>
     </header>
 
-    <!-- Hero Section with Video Background Option -->
-    <section id="hero" class="full-width">
-        <div class="hero-video-background">
-            <!-- Video will be added here -->
-            <video autoplay muted loop id="heroVideo">
-                <source src="YOUR_VIDEO_FILE.mp4" type="video/mp4">
-            </video>
-        </div>
+    <main>
+        <section id="hero" class="full-width">
+            <div class="container">
+                <h1>Empowering Growth and Innovation</h1>
+                <p>Neczux Global Group delivers cutting-edge solutions for businesses and professionals.</p>
+                <a href="#services" class="cta-button">Explore Our Services</a>
+            </div>
+        </section>
+
+        <section id="services" class="alternating-bg">
+            <div class="container">
+                <h2>Our Services</h2>
+                <div class="service-grid">
+                    <div class="service-card">
+                        <img src="ngg/tech-solution.jpeg" alt="Technology Solutions Icon">
+                        <h3>Technology Solutions</h3>
+                        <p>Custom software development, IT support, and digital transformation services.</p>
+                        <a href="tech-solutions.html" class="learn-more">Explore</a>
+                    </div>
+                    <div class="service-card">
+                        <img src="ngg/consulting-service0.png" alt="Business Consultancy Icon">
+                        <h3>Business Consultancy</h3>
+                        <p>Strategic planning, business analysis, and startup advisory services.</p>
+                        <a href="business-consultancy.html" class="learn-more">Explore</a>
+                    </div>
+                    <div class="service-card">
+                        <img src="ngg/tutoring-service.jpg" alt="Tutorial Services Icon">
+                        <h3>Tutorial Services</h3>
+                        <p>Comprehensive tutoring in IT skills and Mathematics, from basic to advanced levels.</p>
+                        <a href="tutorial-services.html" class="learn-more">Explore</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="success-stories" class="alternating-bg">
+            <div class="container">
+                <h2>Success Stories</h2>
+                <div class="story-grid">
+                    <div class="story-card">
+                        <img src="ngg/startup upskill.png" alt="StartUp Upskilling">
+                        <h3>EdTech Revolution</h3>
+                        <p>How we helped a startup transform online learning with AI-powered tutoring.</p>
+                        <a href="#" class="read-more">Read Full Story</a>
+                    </div>
+                    <div class="story-card">
+                        <img src="ngg/Big Techs Transformation.jpeg" alt="Digital Transformation">
+                        <h3>Tech Giant's Digital Transformation</h3>
+                        <p>Our role in modernizing a leading tech company's infrastructure.</p>
+                        <a href="#" class="read-more">Read Full Story</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="full-width">
+            <div class="container">
+                <h2>Get in Touch</h2>
+                <form id="contact-form">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <select name="service" required>
+                        <option value="">Select a Service</option>
+                        <option value="tech-solutions">Technology Solutions</option>
+                        <option value="business-consultancy">Business Consultancy</option>
+                        <option value="tutorial-services">Tutorial Services</option>
+                    </select>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="cta-button">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
         <div class="container">
-            <div class="hero-content">
-                <h1>Empowering Digital Transformation</h1>
-                <p class="hero-subtitle">Innovative technology solutions tailored to drive your business growth</p>
-                <div class="hero-cta">
-                    <a href="#services" class="cta-button primary">Explore Services</a>
-                    <a href="#contact" class="cta-button secondary">Get a Consultation</a>
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4>WHAT WE DO</h4>
+                    <ul>
+                        <li><a href="#industries">Industries</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#insights">Articles</a></li>
+                        <li><a href="#success-stories">Case Studies</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>COMPANY</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#events">Events</a></li>
+                        <li><a href="#news">News</a></li>
+                        <li><a href="#careers">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>JOIN US ON SOCIAL</h4>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/company/neczuxglobal" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.instagram.com/neczuxglobal" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://x.com/neczuxglobal" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.facebook.com/NeczuxGlobalGroup" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://www.tiktok.com/@neczuxglobal" target="_blank" rel="noopener noreferrer" aria-label="Tiktok">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                    </div>
+                    <a href="#" class="subscribe-button">Subscribe To Our Newsletter</a>
                 </div>
             </div>
         </div>
-    </section>
-
-    <!-- Client Logo Showcase -->
-    <section class="client-logos">
-        <div class="container">
-            <h2 class="section-title">Trusted By Industry Leaders</h2>
-            <div class="logo-carousel">
-                <img src="ngg/client1.png" alt="Client 1">
-                <img src="ngg/client2.png" alt="Client 2">
-                <img src="ngg/client3.png" alt="Client 3">
-                <img src="ngg/client4.png" alt="Client 4">
-                <img src="ngg/client5.png" alt="Client 5">
+        <div class="bottom-footer">
+            <div class="container">
+                <p>&copy; 2024 Neczux Global Group. All Rights Reserved. <a href="#">Privacy Policy</a> <a href="#">Data Processing Terms</a></p>
             </div>
         </div>
-    </section>
-
-    <!-- Video Section -->
-    <section class="video-section">
-        <div class="container">
-            <div class="video-content">
-                <h2>Our Story in Motion</h2>
-                <p>Discover how NeczuxGlobal is transforming businesses through technology</p>
-                <div class="video-container">
-                    <iframe width="560" height="315" src="YOUR_VIDEO_LINK_HERE" frameborder="0" allowfullscreen></iframe>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Rest of your existing sections (Services, Success Stories, etc.) -->
-
-    <script src="frontend/src/neczux-script.js"></script>
+    </footer>
+<script src="frontend/src/neczux-script.js"></script>
 </body>
 </html>
