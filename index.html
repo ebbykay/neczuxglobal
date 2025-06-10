@@ -3,71 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NeczuxGlobal - Tech | Business | Learning</title>
+    <title>Neczux Global Group - Technology Solutions & Business Consultancy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Lato:wght@700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="static/css/style.css">
-        :root {
-            --primary: #2962FF; /* Your blue */
-            --secondary: #0D47A1; /* Darker blue */
-            --accent: #FF6D00; /* Your orange */
-            --dark: #212121;
-            --light: #f5f5f5;
-            --gray: #757575;
-        }
-        
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-        
-        body {
-            line-height: 1.6;
-            color: var(--dark);
-            overflow-x: hidden;
-        }
-        
-        .container {
-            width: 100%;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-        
-        /* Add more base styles here */
-    </style>
 </head>
 <body>
-    <!-- Navigation -->
-    <header class="header">
+    <!-- Sticky Header with Mega Menu -->
+    <header class="sticky-header">
         <div class="container">
-            <nav class="navbar">
-                <a href="#" class="logo">NeczuxGlobal</a>
-                <div class="menu-toggle" id="mobile-menu">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
-                <ul class="nav-list">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Industries</a></li>
-                    <li><a href="#">Case Studies</a></li>
-                    <li><a href="#">Contact</a></li>
+            <div class="logo">
+                <img src="ngg/NGG nB1.png" alt="Neczux Global Group Logo">
+            </div>
+            <nav>
+                <ul class="main-nav">
+                    <li><a href="neczux-updated-homepage.html">Home</a></li>
+                    <li class="mega-menu-item">
+                        <a href="#industries">Industries <i class="fas fa-chevron-down"></i></a>
+                        <div class="mega-menu">
+                            <div class="mega-menu-column">
+                                <h4>Technology</h4>
+                                <ul>
+                                    <li><a href="#ai-ml">AI & Machine Learning</a></li>
+                                    <li><a href="#cloud">Cloud Solutions</a></li>
+                                    <li><a href="#cybersecurity">Cybersecurity</a></li>
+                                </ul>
+                            </div>
+                            <div class="mega-menu-column">
+                                <h4>Education</h4>
+                                <ul>
+                                    <li><a href="#edtech">EdTech Solutions</a></li>
+                                    <li><a href="#training">Professional Training</a></li>
+                                </ul>
+                            </div>
+                            <div class="mega-menu-column">
+                                <h4>Startups</h4>
+                                <ul>
+                                    <li><a href="#incubation">Incubation Programs</a></li>
+                                    <li><a href="#funding">Funding Assistance</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- Similar mega menu structure for Services and About -->
+                    <li><a href="#contact" class="cta-button">Contact Us</a></li>
                 </ul>
+                <div class="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </nav>
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
+    <!-- Hero Section with Video Background Option -->
+    <section id="hero" class="full-width">
+        <div class="hero-video-background">
+            <!-- Video will be added here -->
+            <video autoplay muted loop id="heroVideo">
+                <source src="YOUR_VIDEO_FILE.mp4" type="video/mp4">
+            </video>
+        </div>
         <div class="container">
             <div class="hero-content">
-                <h1>Innovative Technology Solutions for Global Businesses</h1>
-                <p>We deliver cutting-edge digital transformation services tailored to your needs</p>
-                <a href="#" class="btn btn-primary">Explore Our Services</a>
-                <a href="#" class="btn btn-secondary">Contact Us</a>
+                <h1>Empowering Digital Transformation</h1>
+                <p class="hero-subtitle">Innovative technology solutions tailored to drive your business growth</p>
+                <div class="hero-cta">
+                    <a href="#services" class="cta-button primary">Explore Services</a>
+                    <a href="#contact" class="cta-button secondary">Get a Consultation</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Logo Showcase -->
+    <section class="client-logos">
+        <div class="container">
+            <h2 class="section-title">Trusted By Industry Leaders</h2>
+            <div class="logo-carousel">
+                <img src="ngg/client1.png" alt="Client 1">
+                <img src="ngg/client2.png" alt="Client 2">
+                <img src="ngg/client3.png" alt="Client 3">
+                <img src="ngg/client4.png" alt="Client 4">
+                <img src="ngg/client5.png" alt="Client 5">
             </div>
         </div>
     </section>
@@ -75,21 +94,18 @@
     <!-- Video Section -->
     <section class="video-section">
         <div class="container">
-            <div class="video-placeholder">
-                <!-- Video will be embedded here -->
+            <div class="video-content">
+                <h2>Our Story in Motion</h2>
+                <p>Discover how NeczuxGlobal is transforming businesses through technology</p>
                 <div class="video-container">
                     <iframe width="560" height="315" src="YOUR_VIDEO_LINK_HERE" frameborder="0" allowfullscreen></iframe>
-                </div>
-                <div class="video-content">
-                    <h2>Our Story in Motion</h2>
-                    <p>Discover what makes NeczuxGlobal different through our company story</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- More sections will go here -->
+    <!-- Rest of your existing sections (Services, Success Stories, etc.) -->
 
-    <script src="neczux-script.js"></script>
+    <script src="static/js/neczux-script.js"></script>
 </body>
 </html>
