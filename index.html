@@ -3,158 +3,260 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Neczux Global Group</title>
-    <link rel="stylesheet" href="static/css/style.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Lato:wght@700&display=swap" rel="stylesheet">
+    <meta name="description" content="Neczux Global Group - Integrated Business Solutions from Idea to Scale">
+    <title>Neczux Global Group | Vision Meets Venture</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
 </head>
 <body>
-    <header class="sticky-header">
+    <!-- Header & Navigation -->
+    <header class="main-header">
         <div class="container">
-            <div class="logo">
-                <img src="ngg/UpdatedNeczuxlogo.png" alt="Neczux Global Group Logo">
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="neczux-updated-homepage.html">Home</a></li>
-                    <li>
-                        <a href="#industries">Industries</a>
-                        <ul class="dropdown">
-                            <li><a href="#tech">Technology</a></li>
-                            <li><a href="#education">Education</a></li>
-                            <li><a href="#startups">Startups</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#services">Services</a>
-                        <ul class="dropdown">
-                            <li><a href="tech-solutions.html">Technology Solutions</a></li>
-                            <li><a href="business-consultancy.html">Business Consultancy</a></li>
-                            <li><a href="tutorial-services.html">Tutorial Services</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#about">About</a>
-                        <ul class="dropdown">
-                            <li><a href="#company-info">Company Information</a></li>
-                            <li><a href="#leadership">Leadership Team</a></li>
-                            <li><a href="#events">Events</a></li>
-                            <li><a href="#news">News</a></li>
-                            <li><a href="#careers">Careers</a></li>
-                            <li><a href="#contact">Contact Us</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#resources">Resources</a>
-                        <ul class="dropdown">
-                            <li><a href="#insights">Insights</a></li>
-                            <li><a href="#success-stories">Success Stories</a></li>
-                            <li><a href="#key-stories">Key Stories</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#contact" class="cta-button">Contact Us</a></li>
-                </ul>
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                    <img src="ngg-images/NGG.png" alt="Neczux Global Group Logo">
+                    <span class="logo-text">Neczux Global Group Ltd.</span>
+                </a>
+                
+                <div class="nav-menu">
+                    <ul class="nav-list">
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="training.html">Training</a></li>
+                        <li><a href="contact.html" class="nav-cta">Get Started</a></li>
+                    </ul>
+                </div>
+                
+                <button class="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
             </nav>
         </div>
     </header>
 
-    <main>
-        <section id="hero" class="full-width">
-            <div class="container">
-                <h1>Empowering Growth and Innovation</h1>
-                <p>Neczux Global Group delivers cutting-edge solutions for businesses and professionals.</p>
-                <a href="#services" class="cta-button">Explore Our Services</a>
-            </div>
-        </section>
-
-        <section id="services" class="alternating-bg">
-            <div class="container">
-                <h2>Our Services</h2>
-                <div class="service-grid">
-                    <div class="service-card">
-                        <img src="ngg/tech-solution.jpeg" alt="Technology Solutions Icon">
-                        <h3>Technology Solutions</h3>
-                        <p>Custom software development, IT support, and digital transformation services.</p>
-                        <a href="tech-solutions.html" class="learn-more">Explore</a>
-                    </div>
-                    <div class="service-card">
-                        <img src="ngg/consulting-service0.png" alt="Business Consultancy Icon">
-                        <h3>Business Consultancy</h3>
-                        <p>Strategic planning, business analysis, and startup advisory services.</p>
-                        <a href="business-consultancy.html" class="learn-more">Explore</a>
-                    </div>
-                    <div class="service-card">
-                        <img src="ngg/tutoring-service.jpg" alt="Tutorial Services Icon">
-                        <h3>Tutorial Services</h3>
-                        <p>Comprehensive tutoring in IT skills and Mathematics, from basic to advanced levels.</p>
-                        <a href="tutorial-services.html" class="learn-more">Explore</a>
-                    </div>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Vision Meets Venture</h1>
+                <p class="hero-subtitle">Integrated business solutions that transform ideas into scalable operations</p>
+                <p class="hero-description">
+                    We are your integrated home provider - combining strategy, technology, automation, 
+                    products, and training into one seamless ecosystem that saves time, cuts costs, 
+                    and powers sustainable growth.
+                </p>
+                <div class="hero-buttons">
+                    <a href="services.html" class="btn btn-primary">Explore Our Services</a>
+                    <a href="contact.html" class="btn btn-secondary">Start Your Journey</a>
                 </div>
             </div>
-        </section>
-
-        <section id="success-stories" class="alternating-bg">
-            <div class="container">
-                <h2>Success Stories</h2>
-                <div class="story-grid">
-                    <div class="story-card">
-                        <img src="ngg/startup upskill.png" alt="StartUp Upskilling">
-                        <h3>EdTech Revolution</h3>
-                        <p>How we helped a startup transform online learning with AI-powered tutoring.</p>
-                        <a href="#" class="read-more">Read Full Story</a>
-                    </div>
-                    <div class="story-card">
-                        <img src="ngg/Big Techs Transformation.jpeg" alt="Digital Transformation">
-                        <h3>Tech Giant's Digital Transformation</h3>
-                        <p>Our role in modernizing a leading tech company's infrastructure.</p>
-                        <a href="#" class="read-more">Read Full Story</a>
-                    </div>
+            <div class="hero-visual">
+                <div class="visual-placeholder">
+                    <i class="fas fa-rocket"></i>
+                    <p>Transform Your Business Today</p>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="contact" class="full-width">
-            <div class="container">
-                <h2>Get in Touch</h2>
-                <form id="contact-form">
-                    <input type="text" name="name" placeholder="Your Name" required>
-                    <input type="email" name="email" placeholder="Your Email" required>
-                    <select name="service" required>
-                        <option value="">Select a Service</option>
-                        <option value="tech-solutions">Technology Solutions</option>
-                        <option value="business-consultancy">Business Consultancy</option>
-                        <option value="tutorial-services">Tutorial Services</option>
-                    </select>
-                    <textarea name="message" placeholder="Your Message" required></textarea>
-                    <button type="submit" class="cta-button">Send Message</button>
-                </form>
+    <!-- Core Services -->
+    <section class="core-services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Integrated Service Architecture</h2>
+                <p class="section-subtitle">Five powerful pillars working as one system</p>
             </div>
-        </section>
-    </main>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>IT & Automation</h3>
+                    <p>Websites, applications, workflow automation, and scalable cloud systems</p>
+                    <a href="services.html#it-automation" class="service-link">Learn More →</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Creative Design</h3>
+                    <p>Brand identity, UI/UX design, and digital content management</p>
+                    <a href="services.html#creative-design" class="service-link">Learn More →</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <h3>Product Store</h3>
+                    <p>Hardware, software, and digital tools for complete business provisioning</p>
+                    <a href="products.html" class="service-link">Explore Products →</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Business Strategy</h3>
+                    <p>From ideation to market entry and growth planning</p>
+                    <a href="services.html#strategy" class="service-link">Learn More →</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Training</h3>
+                    <p>Technical onboarding and business process training</p>
+                    <a href="training.html" class="service-link">Explore Training →</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <footer>
+    <!-- Development Framework -->
+    <section class="framework">
+        <div class="container">
+            <div class="section-header">
+                <h2>The Neczux Development Framework</h2>
+                <p class="section-subtitle">From idea to scalable operation in 5 steps</p>
+            </div>
+            
+            <div class="framework-timeline">
+                <div class="timeline-step">
+                    <div class="step-number">1</div>
+                    <h4>Identify</h4>
+                    <p>Client needs & entry service definition</p>
+                </div>
+                
+                <div class="timeline-step">
+                    <div class="step-number">2</div>
+                    <h4>Build</h4>
+                    <p>Systems + platforms development</p>
+                </div>
+                
+                <div class="timeline-step">
+                    <div class="step-number">3</div>
+                    <h4>Operate</h4>
+                    <p>Operations + automation setup</p>
+                </div>
+                
+                <div class="timeline-step">
+                    <div class="step-number">4</div>
+                    <h4>Optimize</h4>
+                    <p>Consulting & strategy refinement</p>
+                </div>
+                
+                <div class="timeline-step">
+                    <div class="step-number">5</div>
+                    <h4>Scale</h4>
+                    <p>Expansion, training & integration</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-choose">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Choose Neczux?</h2>
+                <p class="section-subtitle">Integrated solutions that deliver real results</p>
+            </div>
+            
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <i class="fas fa-puzzle-piece"></i>
+                    <h3>Integrated Ecosystem</h3>
+                    <p>All services combined into one seamless experience</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <i class="fas fa-coins"></i>
+                    <h3>Cost Efficient</h3>
+                    <p>Bundled services reduce costs by 20-40%</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <i class="fas fa-globe-africa"></i>
+                    <h3>African-First</h3>
+                    <p>Local understanding with global standards</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <i class="fas fa-bolt"></i>
+                    <h3>Fast Deployment</h3>
+                    <p>2x faster implementation with our templates</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Transform Your Business?</h2>
+                <p>Let's discuss how our integrated approach can drive your growth</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-primary">Start Conversation</a>
+                    <a href="services.html" class="btn btn-outline">View Services</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
         <div class="container">
             <div class="footer-grid">
-                <div class="footer-section">
-                    <h4>WHAT WE DO</h4>
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <img src="ngg-images/NGG3.png" alt="Neczux Logo">
+                        <span>Neczux Global Group</span>
+                    </div>
+                    <p class="footer-description">
+                        Integrated business development and technology solutions from idea to scale.
+                    </p>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-envelope"></i> contact@neczuxglobal.com</p>
+                        <p><i class="fas fa-phone"></i> +233 247 298 881</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Accra, Ghana</p>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Services</h4>
                     <ul>
-                        <li><a href="#industries">Industries</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#insights">Articles</a></li>
-                        <li><a href="#success-stories">Case Studies</a></li>
+                        <li><a href="services.html#it-automation">IT & Automation</a></li>
+                        <li><a href="services.html#creative-design">Creative Design</a></li>
+                        <li><a href="products.html">Product Store</a></li>
+                        <li><a href="services.html#strategy">Business Strategy</a></li>
+                        <li><a href="training.html">Training Services</a></li>
                     </ul>
                 </div>
-                <div class="footer-section">
-                    <h4>COMPANY</h4>
+                
+                <div class="footer-col">
+                    <h4>Company</h4>
                     <ul>
-                        <li><a href="#about">About Us</a></li>
-                        <li><a href="#events">Events</a></li>
-                        <li><a href="#news">News</a></li>
-                        <li><a href="#careers">Careers</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="about.html#leadership">Our Team</a></li>
+                        <li><a href="#">Case Studies</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
-                <div class="footer-section">
-                    <h4>JOIN US ON SOCIAL</h4>
+                
+                <div class="footer-col">
+                    <h4>Connect</h4>
                     <div class="social-links">
                         <a href="https://www.linkedin.com/company/neczuxglobal" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                             <i class="fab fa-linkedin"></i>
@@ -165,23 +267,34 @@
                         <a href="https://x.com/neczuxglobal" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
                             <i class="fab fa-twitter"></i>
                         </a>
-                        <a href="https://www.facebook.com/NeczuxGlobalGroup" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                        <a href="https://www.facebook.com/neczuxglobal" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
                             <i class="fab fa-facebook"></i>
                         </a>
                         <a href="https://www.tiktok.com/@neczuxglobal" target="_blank" rel="noopener noreferrer" aria-label="Tiktok">
                             <i class="fab fa-tiktok"></i>
-                        </a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
                     </div>
-                    <a href="#" class="subscribe-button">Subscribe To Our Newsletter</a>
+                    <div class="newsletter">
+                        <p>Subscribe to our newsletter</p>
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="Your email" required>
+                            <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Neczux Global Group Ltd. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookies</a>
                 </div>
             </div>
         </div>
-        <div class="bottom-footer">
-            <div class="container">
-                <p>&copy; 2024 Neczux Global Group. All Rights Reserved. <a href="#">Privacy Policy</a> <a href="#">Data Processing Terms</a></p>
-            </div>
-        </div>
     </footer>
-<script src="frontend/src/neczux-script.js"></script>
+
+    <script src="scripts/main.js"></script>
 </body>
 </html>
